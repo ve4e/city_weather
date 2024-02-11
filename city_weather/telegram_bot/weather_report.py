@@ -9,9 +9,9 @@ from city_weather.telegram_bot.config import WEATHER_SERVER_ADDRESS
 
 def report_beautifier(report: WeatherReport) -> str:
     return f'Прогноз погоды на сегодня ! ✨\n' \
-           f'🌡: {report.temp}\n' \
-           f'🎈: {report.pressure_mm}\n' \
-           f'🌪: {report.wind_speed}\n'
+           f'🌡: {report.temp} °C\n' \
+           f'🎈: {report.pressure_mm} мм.рт.ст.\n' \
+           f'🌪: {report.wind_speed} м/с\n'
 
 
 async def weather_report(city: str) -> str:

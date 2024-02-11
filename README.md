@@ -52,7 +52,7 @@ daphne web_server.asgi:application
 
 ## Телеграм бот
 
-![img_3.png](img_3.png)
+![img_4.png](img_4.png)
 
 
 
