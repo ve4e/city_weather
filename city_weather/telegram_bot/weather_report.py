@@ -7,7 +7,7 @@ from city_weather.common.pydantic_models import WeatherReport
 from city_weather.telegram_bot.config import WEATHER_SERVER_ADDRESS
 
 
-def report_beautifier(report: WeatherReport):
+def report_beautifier(report: WeatherReport) -> str:
     return f'Прогноз погоды на сегодня ! ✨\n' \
            f'🌡: {report.temp}\n' \
            f'🎈: {report.pressure_mm}\n' \
