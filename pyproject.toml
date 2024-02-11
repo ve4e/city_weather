@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "city-weather"
+version = "0.1.0"
+description = ""
+authors = ["Bashveev Yuri <bashveev@krug.local>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0.2"
+daphne = "^4.0.0"
+aiohttp = "^3.9.3"
+pydantic = "^2.5"
+django-redis = "^5.4.0"
+telebot = "^0.0.5"
+aiogram = "^3.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
